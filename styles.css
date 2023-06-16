@@ -1,0 +1,117 @@
+incorporo DOM con modelo de caja/
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(imagen/Dream-Theater-logo-nuevo-2013.jpg)
+    
+}
+#strong,strong{
+    color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(44, 244, 9);
+        font-size: 50px;
+        font-family:'Times New Roman', Times, serif
+    
+}
+
+h1{
+    color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(80, 245, 21);
+        font-size: 150px;
+        animation:alternate-reverse
+        
+        
+}
+h2{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: rgb(246, 250, 249)
+        
+        
+}
+h3{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px
+}
+
+p{
+       color: aliceblue;
+       font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+
+}
+
+
+
+
+p{
+       color: rgb(254, 254, 254); 
+        
+            text-align:justify
+            
+         }
+        
+    
+
+
+
+
+
+.contenedor {display: flex;}
+
+.columna-1 {
+    display: flex;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(18, 4, 44);
+    margin: 0 10px
+    
+    
+    
+}
+
+.columna-2 {
+    display: flex;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(18, 4, 44);
+    margin: 0 10px
+    
+}
+#video,video{
+    display: flex;
+    margin:0 auto;
+   float:inline-start;
+    height:1000px
+
+}
+
+#audio,audio{
+    float: inline-start;
+    display: flex;
+    padding-left: 43%;
+    margin: 2%
+    
+    
+    
+}
